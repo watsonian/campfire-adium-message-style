@@ -1,0 +1,126 @@
+/*
+---------------------------------------------------------------------------
+  PROJECT: 	Adium Message Style
+
+FILE NAME: 	CampFire.AdiumMessageStyle    
+
+     NAME: 	CampFire
+           	[http://caenim.com/public/minimal_mod.AdiumMessageStyle.zip]
+
+ DESIGNER: 	Joel Watson [http://caenim.com/]
+
+  CREATED: 	2009.12.21 [first local version]
+
+REVISIONS: 	
+
+     TODO: 	
+
+ BASED ON: 	minimal_mod
+           	check http://www.adiumxtras.com/index.php?a=xtras&xtra_id=1576 for full credits
+---------------------------------------------------------------------------*/
+.clear { clear: both; }
+
+body
+{
+	margin: 4px 0 5px 0;
+	color: #4b4b4b;
+	background-color: white;
+	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	font-size: 0.8em;
+	padding: 0px 1px 1px 1px;
+}
+
+.container.status
+{
+	border-top: 1px solid white;
+	background-color: #d9e7fb;
+	padding: 4px 0 4px 0;
+}
+
+.container.status.away
+{
+	background-color: #f8decc;
+}
+
+.container.status.available
+{
+	background-color: #d7f8d3;
+}
+
+.container.status .time
+{
+	display: block;
+	min-width: 100px;
+	text-align: right;
+	float: left;
+}
+
+.container.status .message
+{
+	padding: 0 0 0 4px;
+}
+
+.container .sender
+{
+	display: block;
+	padding: 4px 4px 0 0;;
+	min-width: 100px;
+	font-weight: bold;
+	text-align: right;
+	float: left;
+}
+
+.container.initial .sender
+{
+	border-top: 1px solid white;
+}
+
+.container.initial .message
+{
+	border-top: 1px solid white;
+}
+
+.container.next .sender
+{
+	display: none;
+}
+
+.container .time
+{
+	display: none;
+}
+
+.container.initial
+{
+	
+}
+
+.container.outgoing .message, .container.incoming .message
+{
+	display: block;
+	padding: 4px;
+	border-left: 1px solid #dcdcdc;
+	border-bottom: 1px solid #efefef;
+}
+
+.container.incoming .message
+{
+	background-color: white;
+}
+
+.container.outgoing
+{
+	background-color: #ffffcc;
+}
+
+.container.incoming
+{
+	background-color: #efefef;
+}
+
+.container.next .message, .container.initial .message
+{
+	padding-top: 3px;
+	diplay: block;
+	margin-left: 105px;
+}
