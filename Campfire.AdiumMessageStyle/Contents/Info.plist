@@ -17,9 +17,7 @@
 	<key>DefaultFontFamily</key>
 	<string>Lucida Grande</string>
 	<key>DefaultFontSize</key>
-	<integer>10</integer>
-	<key>DefaultVariant</key>
-	<string>Black vs Red</string>
+	<integer>16</integer>
 	<key>MessageViewVersion</key>
 	<integer>4</integer>
 	<key>ShowsUserIcons</key>
