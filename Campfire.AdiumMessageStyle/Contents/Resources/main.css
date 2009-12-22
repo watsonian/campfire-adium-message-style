@@ -123,3 +123,10 @@ body
 	diplay: block;
 	margin-left: 105px;
 }
+
+.context
+{
+	opacity: .6;
+}
+
+img.scaledToFitImage{ width:auto; }
