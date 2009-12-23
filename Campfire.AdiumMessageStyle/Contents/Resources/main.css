@@ -36,12 +36,12 @@ body
 	padding: 4px 0 4px 0;
 }
 
-.container.status.away
+.container.status.offline, .container.status.away, .container.status.away_message
 {
 	background-color: #f8decc;
 }
 
-.container.status.available
+.container.status.online, .container.status.return_away
 {
 	background-color: #d7f8d3;
 }
@@ -84,14 +84,17 @@ body
 	display: none;
 }
 
-.container .time
+div:hover.container .message .time
 {
-	display: none;
+	display: inline;
 }
 
-.container.initial
+div.container .message .time
 {
-	
+	display: none;
+	padding: 2px 0 0 4px;
+	font-weight: bold;
+	font-size: 0.8em;
 }
 
 .container.outgoing .message, .container.incoming .message
