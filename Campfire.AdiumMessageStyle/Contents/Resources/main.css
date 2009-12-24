@@ -62,8 +62,10 @@ body
 .container .sender
 {
 	display: block;
-	padding: 4px 4px 0 0;;
-	min-width: 100px;
+	padding: 4px 4px 0 8px;
+	overflow: hidden;
+	width: 92px;
+	height: 16px;
 	font-weight: bold;
 	text-align: right;
 	float: left;
@@ -79,6 +81,11 @@ body
 	border-top: 1px solid white;
 }
 
+.container .message
+{
+	position: relative;
+}
+
 .container.next .sender
 {
 	display: none;
@@ -91,8 +98,13 @@ div:hover.container .message .time
 
 div.container .message .time
 {
+	background-color: #efefef;
+	position: absolute;
+	top: 0;
+	right: 0;
 	display: none;
-	padding: 2px 0 0 4px;
+	float: right;
+	padding: 2px;
 	font-weight: bold;
 	font-size: 0.8em;
 }
